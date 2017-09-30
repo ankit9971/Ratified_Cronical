@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uvn.ankit.com.uvn.News_activity"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NASA Warns 'Planet X' Is Headed Straight for Earth?"
+        android:textSize="30sp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:text="30/09/2017: 6:41 PM"
+        android:gravity="right"
+        android:layout_marginRight="5dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/image1" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cross"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="176"
+            android:gravity="center"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="24"
+            android:gravity="center"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="563"
+            android:gravity="center"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="True"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Can't say"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="False"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Discussion"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:gravity="center"
+    />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Ravish"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="On 10 March 2016, the web site News4KTLA published an article  reporting that NASA had issued a frightening advisory concerning the possibility that the trajectory a “rogue planet” known as “Nibiru” or “Planet X” would intersect Earth’s orbit, with potentially disastrous consequences:"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Stetzer, Ed"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textSize="15sp"
+                android:text="This report was untrue, just another clickbait fabrication originating with News4KTLA, a fake news site that has appropriated the call letters of a legitimate Los Angeles television station and news outlet (KTLA).
+
+NASA has never issued any such warning, nor reported the existence of any “rogue planet.” In fact, NASA has stated just the opposite, that no planet such as “Niburu” is known to exist:"/>
+
+        </LinearLayout>
+</LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/notification5"
+            />
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/open_journalist7"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+            android:background="@drawable/refresh1"
+        android:layout_weight="1"/>
+        <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+            android:background="@drawable/verify2"
+        android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
